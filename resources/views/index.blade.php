@@ -62,9 +62,6 @@
                         <div  style="padding: 10px 10px 0 10px;">
 
                             <div class="box box-primary">
-                                <div class="box-header">
-                                    <h3 class="box-title"></h3>
-                                </div>
                                 <!-- /.box-header -->
                                 <div class="box-body table-responsive no-padding">
                                     <table class="table table-hover" id="dd-desc-{{ $table['Name'] }}">
