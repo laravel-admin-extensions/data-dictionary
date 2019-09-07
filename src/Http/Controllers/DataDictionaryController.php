@@ -41,9 +41,9 @@ class DataDictionaryController extends Controller
     public function export(Request $request)
     {
         $tables = explode(',', $request->get('table'));
-
-        if (empty($tables)) {
-            return;
+        
+        if ($tables[0] == '') {
+            return '没有选择任何数据表';
         }
 
         $dump = '';
